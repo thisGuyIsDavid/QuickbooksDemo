@@ -10,11 +10,11 @@ Install all pip packages.
 
 Run the script in 'server.py'. This will start a Flask server that is needed for response handling during the auth process.
 
-In the root directory, create a JSON file with the following information from the QB developer dashboard:
+In the root directory, create a JSON file called `auth.json` with the following information from the QB developer dashboard:
 
 `{
-"CLIENT_ID": <CLIENT ID>,
-"CLIENT_SECRET": <CLIENT SECRET>
+    "CLIENT_ID": <CLIENT ID>,
+    "CLIENT_SECRET": <CLIENT SECRET>
 }`
 
 Make sure to add http://localhost:5001 to allowed URLs in the Quickbooks Dashboard (sandbox).
