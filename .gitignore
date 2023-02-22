@@ -2,3 +2,5 @@ intuit_auth.json
 auth.json
 /.idea
 /venv
+/__pycache__
+*.pyc
